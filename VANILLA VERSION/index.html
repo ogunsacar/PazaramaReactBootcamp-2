@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TODO APP</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="user">Welcome</h1>
+      <form id="userNameForm">
+        <label class="userNameLabel">
+          <span> Username:</span>
+          <input type="text" id="userNameInput" />
+        </label>
+        <button id="username" type="submit" class="btn">submit</button>
+      </form>
+      <form class="form" id="form">
+        <label>
+          <div>Add something to do</div>
+          <input id="inputTodo" type="text" />
+        </label>
+        <button id="add" type="submit" class="btn">+</button>
+        <button id="editForm" type="button" class="btn disabled" disabled>Edit</button>
+      </form>
+      <ul class="list">
+        <!-- <li class="list-item">
+          <p>Örnek</p>
+          <p>false</p>
+          <button id="edit" class="edit-remove">Edit</button>
+          <button id="remove" class="edit-remove">Remove</button>
+          <button id="completed" class="edit-remove">Completed</button>
+        </li> -->
+      </ul>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
